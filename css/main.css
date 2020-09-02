@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 @import "reset.css";
 @import "landingpage/header.css";
 @import "landingpage/top-jumbo.css";
@@ -8,51 +8,42 @@
 @import "landingpage/latest.css";
 @import "landingpage/footer.css";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
+.container {
+  margin: 0 auto;
 }
 
-.container-fluid{
-    padding: 0 20px;
+.container-fluid {
+  padding: 0 20px;
 }
 
-
-.box-shadow-down{
-    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
-    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+.box-shadow-down {
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
 }
 
-.box-shadow-center{
-    -webkit-box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2);
-    -moz-box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2);
-    box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2); 
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  -moz-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
 }
 
 input::placeholder {
-    color: #d5e2ea
+  color: #d5e2ea;
 }
 
 /* laptops */
 @media only screen and (max-width: 1215px) {
-    
 }
 /* tablets */
 @media only screen and (max-width: 1023px) {
-    
 }
 /* mobile */
 @media only screen and (max-width: 767px) {
-   
 }
-
-
-  
