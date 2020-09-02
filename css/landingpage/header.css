@@ -1,0 +1,102 @@
+header{
+    padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header a{
+    color: #4c44c1;
+    text-decoration: none;
+}
+
+header .logo{
+    display: inline-block;
+    float: left;
+    margin-right: 28px;
+}
+
+header .logo img{
+    width: 40px;
+}
+
+header .menu{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+header .menu a{
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+header .header-buttons{
+    display: inline-block;
+    float: right;
+    
+}
+
+header .header-buttons .blue-btn{
+    background: #4c44c1;
+    color: white;
+    padding: 14px 46px;
+    border-radius: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+}
+
+header .header-buttons .blue-btn .fa{
+    margin-left: 15px;
+}
+
+header .header-buttons .orange-btn{
+    background: #fea83b;
+    color: white;
+    padding: 14px 46px;
+    border-radius: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+}
+
+/* laptops */
+@media only screen and (max-width: 1215px) {
+    
+}
+/* tablets */
+@media only screen and (max-width: 1023px) {
+    
+}
+
+/* mobile */
+@media only screen and (max-width: 860px) {
+   header {
+    display: flex;
+    flex-direction: column;
+   }
+
+   header .logo{
+    margin-right: 0px;
+    margin-bottom: 10px;
+   }
+
+   header .menu{
+    top: 0px;
+    margin-bottom: 10px;
+   }
+}
+/* mobile */
+@media only screen and (max-width: 767px) {
+   
+}
